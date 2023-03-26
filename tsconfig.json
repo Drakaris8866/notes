@@ -4,7 +4,8 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "webworker"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,9 +19,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+//    "baseUrl": "./src/",
+//    "paths": {
+//      "@components/*": [
+//        "components/*"
+//      ],
+//      "@services/*": [
+//        "services/*"
+//      ],
+//    }
   },
   "include": [
-    "src"
-  ]
+    "src",
+    "react-app-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],"exclude": ["node_modules"]
 }

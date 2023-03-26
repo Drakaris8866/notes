@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "title": "Заметка1",
+      "text": "#тэг1 выфвфы #тэг2",
+      "tags": [
+        "#тэг1",
+        "#тэг2"
+      ],
+      "id": 1
+    },
+    {
+      "title": "Заметка2",
+      "text": "#тэг23 sdffds #ths",
+      "tags": [
+        "#тэг23",
+        "#ths"
+      ],
+      "id": 2
+    },
+    {
+      "title": "12312",
+      "text": "#ddd fds",
+      "tags": [
+        "#ddd"
+      ],
+      "id": 3
+    },
+    {
+      "title": "",
+      "text": "#dsdas dfdsf #wqwq",
+      "tags": [
+        "#dsdas",
+        "#wqwq"
+      ],
+      "id": 4
+    },
+    {
+      "title": "",
+      "text": "#sadsad fdfsdfs #qwqew",
+      "tags": [
+        "#sadsad",
+        "#qwqew"
+      ],
+      "id": 5
+    },
+    {
+      "title": "",
+      "text": "#dsfadasd  d eqweqw #sdasdas ",
+      "tags": [
+        "#dsfadasd",
+        "#sdasdas"
+      ],
+      "id": 6
+    }
+  ],
+  "tags": [
+    {
+      "tag": "#dsfadasd",
+      "id": 3
+    },
+    {
+      "tag": "#sdasdas",
+      "id": 4
+    }
+  ]
+}
